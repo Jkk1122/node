@@ -14,7 +14,7 @@ const server = http.createServer((request,response)=>{
     // 设置响应状态描述
     response.statusMessage = 'nononono'
     // write可以多次使用  end只能有一个
-    response.write('123')
+    response.write('1222222')
     response.write('345')
     response.end('响应报文设置')
 })

@@ -4,11 +4,14 @@
   "description": "learn npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node 3-获取http请求行和请求头.js",
+    "start": "node 3-获取http请求行和请求头.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jstar_add": "^1.0.0",
     "uniq": "^1.0.1"
   }
 }
