@@ -5,6 +5,7 @@
 const express = require('express')
 // 创建应用对象
 const app = express()
+// 路由中间件
 function checkRouterMiddleware(request,response,next){
     // 获取参数
     let code = request.query.code
