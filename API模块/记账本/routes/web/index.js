@@ -3,10 +3,10 @@ var router = express.Router();
 var nanoid = require('nanoid')
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync');
-const AccountModel = require('../models/AccountModel');
+const AccountModel = require('../../models/AccountModel');
 const moment = require('moment')
  
-const adapter = new FileSync(__dirname +'/../data/db.json')
+const adapter = new FileSync(__dirname +'/../../data/db.json')
 const db = low(adapter)
 
 // 账单页面
