@@ -26,6 +26,13 @@
       <div class="row">
         <div class="col-xs-12 col-lg-8 col-lg-offset-2">
           <h2>记账本</h2>
+          <div>
+            <form method="post" action="/logout">
+              <button class="danger-primary">退出账户</button>
+            </form>
+            <hr>
+            <a href="/account/create"><button class="btn-primary">添加账单</button></a>
+          </div>
           <hr />
           <div class="accounts">
             <% lists.forEach(item=>{ %>
@@ -46,7 +53,6 @@
                 </div>
               </div>
             <% }) %>
-            <a href="/account/create"><button >添加</button></a>
           </div>
         </div>
       </div>
